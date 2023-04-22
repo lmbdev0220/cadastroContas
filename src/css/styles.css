@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(64, 70, 52);
+}
+
+main {
+    background-color: rgb(29, 41, 41);
+    height: 300px;
+    width: 600px;
+    margin: auto;
+    padding: 6px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    display: block;
+    text-align: justify;
+    height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+table {
+    margin: 5px auto;
+    width: 580px;
+    border: 2px;
+    border-color: aliceblue;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    background-color: rgb(102, 164, 219);
+    border-radius: 20px;
+    margin: 5px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bold;
+}
+
+input,
+select {
+    background-color: rgb(206, 223, 228);
+    color: rgb(63, 58, 67);
+    height: 30px;
+    vertical-align: middle;
+}
+
+section {
+    text-align: center;
+    background-color: rgba(4, 75, 75, 0.635);
+    padding: 5px;
+}
+
+.miniBotao {
+    height: 30px;
+    width: 40px;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+}

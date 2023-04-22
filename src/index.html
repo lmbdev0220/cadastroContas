@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Gerenciador de Contas</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <p id="titulo">Contas</p>
+        </header>
+        <section id="manipulacao">
+
+        </section>
+        <section id="botaoNovo">
+            <button onclick="novo()">Nova Conta🆕</button>
+        </section>
+        <section id="listagem">
+            <table border="1px">
+                <thead>
+                    <th>Id</th>
+                    <th>Descrição</th>
+                    <th>Valor</th>
+                    <th>Tipo</th>
+                    <th>Data vencimento</th>
+                    <th>Status</th>
+                    <th>Ações</th>
+                </thead>
+                <tbody id="tabela">                    
+                </tbody>
+            </table>
+            <span>Saldo: R$</span><span id="saldo"></span>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
