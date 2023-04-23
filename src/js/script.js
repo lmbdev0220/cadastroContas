@@ -104,6 +104,9 @@ function excluirConta(indice) {
 function editarConta(indice) {
     const desejaEditar = confirm('Tem certeza que deseja editar a conta ' + contas[indice].descricao + '?');
     if (desejaEditar) {
+        if (contas[indice].valor<0){
+            contas[indice].valor = contas[indice].valor * -1;
+        }
         document.getElementById("manipulacao").innerHTML += `
         <input type="text" id="descricao" placeholder="Descrição da conta">
         <input type="number" id="valor" placeholder="Valor">
